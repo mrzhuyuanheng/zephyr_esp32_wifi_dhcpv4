@@ -1,0 +1,13 @@
+# Target labels
+ EspPartitionTable
+# Source files and their labels
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+/home/yhzhu/zephyrproject/dhcpv4_client/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule
