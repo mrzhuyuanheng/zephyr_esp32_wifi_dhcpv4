@@ -108,23 +108,20 @@ static void dhcp_handler(struct net_mgmt_event_callback *cb, uint32_t mgmt_event
 
 static void dhcp_start(void)
 {
-	// net_mgmt_init_event_callback(&dhcp_cb, dhcp_handler, NET_EVENT_IPV4_DHCP_BOUND | NET_EVENT_IPV4_ADDR_ADD);
-	// net_mgmt_add_event_callback(&dhcp_cb);
+	net_mgmt_init_event_callback(&dhcp_cb, dhcp_handler, NET_EVENT_IPV4_DHCP_BOUND | NET_EVENT_IPV4_ADDR_ADD);
+	net_mgmt_add_event_callback(&dhcp_cb);
 
-    // struct net_if *iface = net_if_get_default();
-    // if(!iface){
-    //     LOG_ERR("wifi interface not available");
-    // }
-    // net_dhcpv4_start(iface);
+    struct net_if *iface = net_if_get_default();
+    if(!iface){
+        LOG_ERR("wifi interface not available");
+    }
+    net_dhcpv4_start(iface);
 
     k_sem_take(&dhcp_sem, K_FOREVER);
 }
 
 void wifi_init(const char *ssid, const char *password)
 {
-	net_mgmt_init_event_callback(&dhcp_cb, dhcp_handler, NET_EVENT_IPV4_ADDR_ADD);
-	net_mgmt_add_event_callback(&dhcp_cb);
-
     wifi_connect(ssid, password);
-    dhcp_start();
+    // dhcp_start();
 }
