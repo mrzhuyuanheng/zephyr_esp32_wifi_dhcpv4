@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: Apache-2.0
+
+menu "Example Configuration"
+
+    config EXAMPLE_WIFI_SSID
+        string "WiFi SSID"
+        default "707"
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "WiFi password"
+        default "A123456789"
+
+endmenu
+
+source "Kconfig.zephyr"

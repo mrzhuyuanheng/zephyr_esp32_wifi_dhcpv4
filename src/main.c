@@ -50,7 +50,7 @@ int main(void)
 {
 	LOG_INF("hello world, %s", CONFIG_BOARD);
 	// wifi_init("TreeNewbear", "csk_wifi_connect");
-	wifi_init("yhzhu", "12345678");
+	wifi_init(CONFIG_EXAMPLE_WIFI_SSID, CONFIG_EXAMPLE_WIFI_PASSWORD);
 
 	do_sntp();
 
